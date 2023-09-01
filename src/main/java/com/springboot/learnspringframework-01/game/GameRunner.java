@@ -3,10 +3,10 @@ package com.springboot.learnspringframework.game;
 public class GameRunner {
 
 //    Creating object of the class MarioGame
-   private GamingConsole game;
+   private com.springboot.learnspringframework.game.GamingConsole game;
 
 //    Creating constructor
-    public GameRunner(GamingConsole game) {
+    public GameRunner(com.springboot.learnspringframework.game.GamingConsole game) {
         this.game = game;
     }
 

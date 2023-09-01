@@ -1,4 +1,4 @@
-package com.springboot.learnspringframework;
+package com.springboot.learnspringframework.helloworld;
 
 //Adding the Spring configuration
 
