@@ -1,4 +1,4 @@
-package com.springboot.businesscalculation;
+package businesscalculation;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;

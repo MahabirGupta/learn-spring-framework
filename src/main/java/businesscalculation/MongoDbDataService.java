@@ -1,4 +1,4 @@
-package com.springboot.businesscalculation;
+package businesscalculation;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

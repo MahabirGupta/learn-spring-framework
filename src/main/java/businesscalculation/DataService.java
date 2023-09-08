@@ -1,4 +1,4 @@
-package com.springboot.businesscalculation;
+package businesscalculation;
 
 public interface DataService {
     int[] retrieveData();
