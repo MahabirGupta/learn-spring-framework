@@ -1,7 +1,7 @@
 package com.springboot.learnspringframework;
 
-import com.springboot.learnspringframework.game.GameRunner;
-import com.springboot.learnspringframework.game.PacmanGame;
+import com.springboot.learnspringframework_02.game.GameRunner;
+import com.springboot.learnspringframework_02.game.PacmanGame;
 
 public class App01GamingBasicJava {
 

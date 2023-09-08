@@ -1,18 +1,12 @@
 package com.springboot.learnspringframework_02.game;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
-@Component
 public class GameRunner {
 
 //    Creating object of the class MarioGame
    private GamingConsole game;
 
 //    Creating constructor
-    public GameRunner(@Qualifier("SuperContraGameQualifier") GamingConsole game) // "SuperContraGameQualifier" is the qualifier that
-                                                                                // needs to be autowired
-    {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 

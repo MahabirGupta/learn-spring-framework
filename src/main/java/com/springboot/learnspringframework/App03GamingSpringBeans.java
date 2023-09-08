@@ -1,7 +1,7 @@
 package com.springboot.learnspringframework;
 
-import com.springboot.learnspringframework.game.GameRunner;
-import com.springboot.learnspringframework.game.GamingConsole;
+import com.springboot.learnspringframework_02.game.GameRunner;
+import com.springboot.learnspringframework_02.game.GamingConsole;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App03GamingSpringBeans {

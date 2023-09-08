@@ -1,10 +1,5 @@
 package com.springboot.learnspringframework_02.game;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
-
-@Component
-@Primary //for Spring to autowire MariaGame as the Primary GamingConsole
 public class MarioGame implements GamingConsole {
 
     public void up(){

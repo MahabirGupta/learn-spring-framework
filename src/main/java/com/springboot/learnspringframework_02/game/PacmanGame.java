@@ -1,9 +1,5 @@
 package com.springboot.learnspringframework_02.game;
 
-import org.springframework.stereotype.Component;
-
-//Add a component that Spring will manage
-@Component
 public class PacmanGame implements GamingConsole {
     public void up(){
         System.out.println("Jump up!");
