@@ -7,8 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Arrays;
 
 @Configuration
-@ComponentScan // Don't have to explicitly specify.
-                                                                  // @ComponentScan will automatically scan
+@ComponentScan // Don't have to explicitly specify.// @ComponentScan will automatically scan
 
 public class SpringContextLauncherApplication {
 

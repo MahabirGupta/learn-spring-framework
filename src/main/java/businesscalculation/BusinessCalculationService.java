@@ -1,10 +1,12 @@
 package businesscalculation;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
-@Component //It is managed by Spring Framework
+//@Component //It is managed by Spring Framework
+@Service //- Indicates that an annotated class has business logic
 public class BusinessCalculationService {
    private DataService dataService;
 
